@@ -25,7 +25,7 @@
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
     "test": "jest",
-    "lint": "eslint",
+    "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prettier":"prettier --write '*.js'",
     "format-code":"yarn run prettier && yarn run lint:fix"
